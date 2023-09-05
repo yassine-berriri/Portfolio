@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Add favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio | Codingdev</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Yassine</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn download-button">Download CV <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Yassine Berriri</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Experienced frontend developer with a passion for crafting
+                         visually stunning and user-friendly websites and mobile apps.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn">Hire Me</button>
+                        <button class="btn download-button">Download CV <i class="uil uil-file-alt"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <a href="https://www.linkedin.com/in/yassine-berriri-a013091b8/" target="_blank">
+                            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                        </a>
+                        <a href="https://github.com/yassine-berriri" target="_blank">
+                        <div class="icon"><i class="uil uil-github-alt"></i></div>
+                        </a>
+                        <a href="https://twitter.com/BerririY" target="_blank">
+                        <div class="icon"><i class="uil uil-twitter"></i></div>
+                        </a>
+                        <a href="https://www.instagram.com/yassine_berriri/" target="_blank">
+                        <div class="icon"><i class="uil uil-instagram"></i></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="./Image/IMG-20230319-WA0060.jpg" alt="avatar">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p>I'm a web developer proficient in HTML, CSS, and JavaScript,
+                              with expertise in React and Angular frameworks.
+                              I also have hands-on experience in Android app development
+                              using Android Studio and Bluetooth Low Energy (BLE) development.
+                              Currently, I'm enriching my skills through a comprehensive
+                             training program at the University of Cote d'Azur.
+                            </p>
+                            <div class="about-btn">
+                                <button class="btn download-button">Download CV <i class="uil uil-import"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Web development</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Angular</span>
+                                <span>ReactJs</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Mobile development</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Android studio</span>
+                                <span>Technologie BLE</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>programming language</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Java</span>
+                                <span>JavaScript</span>
+                                <span>Python</span>
+                                <span>C++</span>
+                                <span>C</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Completed</h3>
+                        <label>9+ Finished Projects</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-file-alt"></i>
+                        <h3>certificates</h3>
+                        <label>8+ complete training</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h3>Experience</h3>
+                        <label>4+ Years in the field</label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>Do you have a project or a propostion in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: yassineberriri22@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> +33 0784884129</p>
+                        </div>
+                    </div>
+                    <div class="col">  
+                        <form class="form-control" id="contactForm">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" id="name" placeholder="Name">
+                                <input type="text" class="input-field" id="email" placeholder="Email">
+                            </div>
+                            <div class="text-area">
+                                <textarea id="message" placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button  type="submit" class="btn">submit <i class="uil uil-message"></i></button>
+                            </div>
+                        </form>
+
+
+                   
+
+                    </div>
+                </div>
+            </section>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Message envoyé avec succès !</p>
+                </div>
+              </div>
+              
+
+        </main>
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Yassine Berriri .</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <a href="https://www.linkedin.com/in/yassine-berriri-a013091b8/" target="_blank">
+                    <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                </a>
+                <a href="https://github.com/yassine-berriri" target="_blank">
+                <div class="icon"><i class="uil uil-github-alt"></i></div>
+                </a>
+                <a href="https://twitter.com/BerririY" target="_blank">
+                <div class="icon"><i class="uil uil-twitter"></i></div>
+                </a>
+                <a href="https://www.instagram.com/yassine_berriri/" target="_blank">
+                <div class="icon"><i class="uil uil-instagram"></i></div>
+            </div>
+          
+        </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script type="module" src="./script.js"></script>
+
+    <script type="module">
+
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-analytics.js";
+        
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+        var modal = document.getElementById("myModal");
+var closeButton = document.getElementsByClassName("close")[0];
+
+// Fonction pour afficher la modale
+function showModal() {
+  modal.style.display = "block";
+
+  setTimeout(function() {
+    modal.style.display = "none";
+  }, 3000);
+}
+
+// Fonction pour masquer la modale lorsque l'utilisateur clique sur le bouton de fermeture
+closeButton.onclick = function() {
+  modal.style.display = "none";
+}
+
+        //
+        const firebaseConfig = {
+          apiKey: "AIzaSyA4HYwlL-bdytyb_7BfMbrqD9JUMAnfy8M",
+          authDomain: "yassineportfolio-ec4ba.firebaseapp.com",
+          databaseURL: "https://yassineportfolio-ec4ba-default-rtdb.firebaseio.com",
+          projectId: "yassineportfolio-ec4ba",
+          storageBucket: "yassineportfolio-ec4ba.appspot.com",
+          messagingSenderId: "414942819342",
+          appId: "1:414942819342:web:f616ddf9df7f448466385f",
+          measurementId: "G-D6TN672RD8"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        import {set, getDatabase, ref } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-database.js";
+        const db = getDatabase();
+        document.getElementById('contactForm').addEventListener('submit', submitForm);
+        
+function submitForm(e){
+  e.preventDefault();
+
+  var name = getElementVal('name');
+  var email = getElementVal('email');
+  var message = getElementVal('message');
+
+  saveMessages(name, email, message);
+}
+
+const saveMessages = (name, email, message) =>{
+ // var newContactForm = contactFormDB.push();
+  set(ref(db, "contact/" + name),{
+    name: name,
+    email:email,
+    message: message,
+  })
+  .then(() =>{
+    //alert("data stored successfully");
+    showModal();
+  })
+  .catch((error) =>{
+    alert(error);
+  });
+}
+
+const getElementVal = (id) =>{
+  return document.getElementById(id).value; 
+}
+      </script>
+</body>
+
+</html>
