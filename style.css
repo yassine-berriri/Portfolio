@@ -284,6 +284,7 @@ nav{
 .col{
     display: flex;
     width: 50%;
+    flex-direction: column;
 }
 
 /* -- ## --- RESUABLE CSS -- ## -- */
@@ -346,6 +347,7 @@ h3{
 .skills-list{
     display: flex;
     flex-wrap: wrap;
+   
     gap: 5px;
 }
 .skills-list span{
